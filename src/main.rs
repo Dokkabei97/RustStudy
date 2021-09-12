@@ -15,7 +15,7 @@ fn main() {
         let mut guess = String::new();
 
         io::stdin().read_line(&mut guess)
-            .expect("입력한 값을 읽지 못했습니;다.");
+            .expect("입력한 값을 읽지 못했습니다.");
 
         let guess: u32 = match guess.trim().parse() {
             Ok(num) => num,
